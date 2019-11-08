@@ -13,7 +13,3 @@ interface Bar {
 
 const c: Bar[] = data.foo;
 const d: Bar[] = data.foo;
-
-console.log(a);
-console.log(b);
-console.log(c);
