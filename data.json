@@ -3,30 +3,6 @@
     {
       "constant": true,
       "type": "function"
-    },
-    {
-      "constant": true,
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "type": "function"
     }
   ]
 }
