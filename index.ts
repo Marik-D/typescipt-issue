@@ -1,11 +1,19 @@
 import data from "./data.json";
 
 interface Foo {
-  type: string;
+  str: string;
 }
 
-const a: Foo[] = data.interface;
-const b: Foo[] = data.interface;
+const a: Foo[] = data.foo;
+const b: Foo[] = data.foo;
+
+interface Bar {
+  bool: string;
+}
+
+const c: Bar[] = data.foo;
+const d: Bar[] = data.foo;
 
 console.log(a);
 console.log(b);
+console.log(c);

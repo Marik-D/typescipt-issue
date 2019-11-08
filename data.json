@@ -1,8 +1,8 @@
 {
-  "interface": [
+  "foo": [
     {
-      "constant": true,
-      "type": "function"
+      "bool": true,
+      "str": "123"
     }
   ]
 }
