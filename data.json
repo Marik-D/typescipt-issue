@@ -1,225 +1,135 @@
 {
-  "interface": [
-    {
-      "constant": true,
-      "name": "count",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "onERC721Received",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "tokenRefundCharge",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "isValidSignature",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "getMagicValue",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "lastNonce",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "addKey",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "initializeWithENS",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "addKeys",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "keys",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "removeKey",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "setRequiredSignatures",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "requiredSignatures",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "owner",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "computeGasUsedWithFee",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "executeSigned",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "etherRefundCharge",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "transactionGasCost",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "initialize",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "calculateMessageHash",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "gasLimitMargin",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "giveAway",
-      "payable": true,
-      "stateMutability": "payable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "keyExist",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "recoverSigner",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "name": "increase",
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "getInvalidSignature",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "uint2str",
-      "payable": false,
-      "stateMutability": "pure",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "name": "keyCount",
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "payable": true,
-      "stateMutability": "payable",
-      "type": "fallback"
-    },
-    {
-      "anonymous": false,
-      "name": "KeyAdded",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "name": "KeyRemoved",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "name": "MultipleKeysAdded",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "name": "ExecutedSigned",
-      "type": "event"
-    }
-  ]
+    "interface": [
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "type": "function"
+        },
+        {
+            "type": "fallback"
+        },
+        {
+            "anonymous": false,
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "type": "event"
+        }
+    ]
 }
