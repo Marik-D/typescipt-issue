@@ -4,9 +4,8 @@ interface Foo {
   type: string;
 }
 
-class Bar {
-  constructor(param: Array<Foo>) {}
-}
+const a: Foo[] = data.interface;
+const b: Foo[] = data.interface;
 
-const a = new Bar(data.interface);
-const b = new Bar(data.interface);
+console.log(a);
+console.log(b);
