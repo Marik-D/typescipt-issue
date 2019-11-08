@@ -47,22 +47,6 @@
     {
       "constant": true,
       "type": "function"
-    },
-    {
-      "anonymous": false,
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "type": "event"
     }
   ]
 }
