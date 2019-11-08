@@ -2,571 +2,196 @@
   "interface": [
     {
       "constant": true,
-      "inputs": [],
       "name": "count",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "",
-          "type": "address"
-        },
-        {
-          "name": "",
-          "type": "address"
-        },
-        {
-          "name": "",
-          "type": "uint256"
-        },
-        {
-          "name": "",
-          "type": "bytes"
-        }
-      ],
       "name": "onERC721Received",
-      "outputs": [
-        {
-          "name": "magicValue",
-          "type": "bytes4"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "tokenRefundCharge",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "_data",
-          "type": "bytes"
-        },
-        {
-          "name": "_signature",
-          "type": "bytes"
-        }
-      ],
       "name": "isValidSignature",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes4"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "getMagicValue",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes4"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "lastNonce",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_key",
-          "type": "address"
-        }
-      ],
       "name": "addKey",
-      "outputs": [
-        {
-          "name": "success",
-          "type": "bool"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_key",
-          "type": "address"
-        },
-        {
-          "name": "_hashLabel",
-          "type": "bytes32"
-        },
-        {
-          "name": "_name",
-          "type": "string"
-        },
-        {
-          "name": "_node",
-          "type": "bytes32"
-        },
-        {
-          "name": "ens",
-          "type": "address"
-        },
-        {
-          "name": "registrar",
-          "type": "address"
-        },
-        {
-          "name": "resolver",
-          "type": "address"
-        },
-        {
-          "name": "gasPrice",
-          "type": "uint256"
-        },
-        {
-          "name": "gasToken",
-          "type": "address"
-        }
-      ],
       "name": "initializeWithENS",
-      "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_keys",
-          "type": "address[]"
-        }
-      ],
       "name": "addKeys",
-      "outputs": [
-        {
-          "name": "success",
-          "type": "bool"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
       "name": "keys",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_key",
-          "type": "address"
-        }
-      ],
       "name": "removeKey",
-      "outputs": [
-        {
-          "name": "success",
-          "type": "bool"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_requiredSignatures",
-          "type": "uint256"
-        }
-      ],
       "name": "setRequiredSignatures",
-      "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "requiredSignatures",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "owner",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "gasUsed",
-          "type": "uint256"
-        }
-      ],
       "name": "computeGasUsedWithFee",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "to",
-          "type": "address"
-        },
-        {
-          "name": "value",
-          "type": "uint256"
-        },
-        {
-          "name": "data",
-          "type": "bytes"
-        },
-        {
-          "name": "gasPrice",
-          "type": "uint256"
-        },
-        {
-          "name": "gasToken",
-          "type": "address"
-        },
-        {
-          "name": "gasLimitExecution",
-          "type": "uint256"
-        },
-        {
-          "name": "gasData",
-          "type": "uint256"
-        },
-        {
-          "name": "signatures",
-          "type": "bytes"
-        }
-      ],
       "name": "executeSigned",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes32"
-        }
-      ],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "etherRefundCharge",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "gasData",
-          "type": "uint256"
-        }
-      ],
       "name": "transactionGasCost",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [
-        {
-          "name": "_key",
-          "type": "address"
-        },
-        {
-          "name": "gasPrice",
-          "type": "uint256"
-        },
-        {
-          "name": "gasToken",
-          "type": "address"
-        }
-      ],
       "name": "initialize",
-      "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "from",
-          "type": "address"
-        },
-        {
-          "name": "to",
-          "type": "address"
-        },
-        {
-          "name": "value",
-          "type": "uint256"
-        },
-        {
-          "name": "data",
-          "type": "bytes"
-        },
-        {
-          "name": "nonce",
-          "type": "uint256"
-        },
-        {
-          "name": "gasPrice",
-          "type": "uint256"
-        },
-        {
-          "name": "gasToken",
-          "type": "address"
-        },
-        {
-          "name": "gasLimitExecution",
-          "type": "uint256"
-        },
-        {
-          "name": "gasData",
-          "type": "uint256"
-        }
-      ],
       "name": "calculateMessageHash",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes32"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "gasLimitMargin",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [],
       "name": "giveAway",
-      "outputs": [],
       "payable": true,
       "stateMutability": "payable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "_key",
-          "type": "address"
-        }
-      ],
       "name": "keyExist",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bool"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "dataHash",
-          "type": "bytes32"
-        },
-        {
-          "name": "signatures",
-          "type": "bytes"
-        },
-        {
-          "name": "index",
-          "type": "uint256"
-        }
-      ],
       "name": "recoverSigner",
-      "outputs": [
-        {
-          "name": "",
-          "type": "address"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": false,
-      "inputs": [],
       "name": "increase",
-      "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "getInvalidSignature",
-      "outputs": [
-        {
-          "name": "",
-          "type": "bytes4"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [
-        {
-          "name": "_num",
-          "type": "uint256"
-        }
-      ],
       "name": "uint2str",
-      "outputs": [
-        {
-          "name": "_uintAsString",
-          "type": "string"
-        }
-      ],
       "payable": false,
       "stateMutability": "pure",
       "type": "function"
     },
     {
       "constant": true,
-      "inputs": [],
       "name": "keyCount",
-      "outputs": [
-        {
-          "name": "",
-          "type": "uint256"
-        }
-      ],
       "payable": false,
       "stateMutability": "view",
       "type": "function"
@@ -578,59 +203,21 @@
     },
     {
       "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "key",
-          "type": "address"
-        }
-      ],
       "name": "KeyAdded",
       "type": "event"
     },
     {
       "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "key",
-          "type": "address"
-        }
-      ],
       "name": "KeyRemoved",
       "type": "event"
     },
     {
       "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "name": "count",
-          "type": "uint256"
-        }
-      ],
       "name": "MultipleKeysAdded",
       "type": "event"
     },
     {
       "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "name": "messageHash",
-          "type": "bytes32"
-        },
-        {
-          "indexed": true,
-          "name": "nonce",
-          "type": "uint256"
-        },
-        {
-          "indexed": true,
-          "name": "success",
-          "type": "bool"
-        }
-      ],
       "name": "ExecutedSigned",
       "type": "event"
     }
