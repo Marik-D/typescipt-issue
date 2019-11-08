@@ -1,135 +1,100 @@
 {
-    "interface": [
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "type": "function"
-        },
-        {
-            "type": "fallback"
-        },
-        {
-            "anonymous": false,
-            "type": "event"
-        },
-        {
-            "anonymous": false,
-            "type": "event"
-        },
-        {
-            "anonymous": false,
-            "type": "event"
-        },
-        {
-            "anonymous": false,
-            "type": "event"
-        }
-    ]
+  "interface": [
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "type": "event"
+    }
+  ]
 }
